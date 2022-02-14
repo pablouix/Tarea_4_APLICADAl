@@ -1,0 +1,23 @@
+<Window x:Class="todosEjercicios.Cap8.ejer3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:todosEjercicios.Cap8"
+        mc:Ignorable="d"
+        Title="Fecha del sistema" Height="200" Width="300">
+        <Grid>
+            <StackPanel Margin = "16" Orientation="Vertical">
+
+                <TextBlock Text="Fecha y Hora Actual" HorizontalAlignment="Center" FontSize="18"/>
+
+                <TextBox  Text="" x:Name="TextBoxFechaAcual" IsEnabled="false" Height="30" Margin="0,18, 0, 0" FontSize="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+
+                <StackPanel Margin="0,18, 0, 0" Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Mostrar" FontSize="12" Height="30" Width="80" Click="Click_btnMostrar"/>
+
+                </StackPanel>
+
+            </StackPanel>
+        </Grid>
+</Window>

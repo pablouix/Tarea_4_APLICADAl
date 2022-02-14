@@ -1,0 +1,32 @@
+<Window x:Class="todosEjercicios.Cap9.ejer1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:todosEjercicios.Cap9"
+        mc:Ignorable="d"
+        Title="Registro" Height="440" Width="600">
+        <Grid>
+            
+           <StackPanel Margin = "16" Orientation="Vertical">
+                <TextBlock Text="Productos" HorizontalAlignment="Center" FontSize="18"/>
+
+                <TextBlock Text="Id"/>
+                <TextBox Text="" x:Name="TextBoxProductoID" Height="30"  FontSize="18" VerticalContentAlignment="Center" />
+
+                <TextBlock Text="Nombre"/>
+                <TextBox Text="" x:Name="TextBoxNombreProducto" Height="30"  FontSize="18" VerticalContentAlignment="Center" />
+
+                <TextBlock Text="Precio"/>
+                <TextBox Text="" x:Name="TextBoxPrecioProducto" Height="30"  FontSize="18" VerticalContentAlignment="Center" />
+               
+
+                <Button Content="Guardar" Margin="0,5,0,5" Height="30" Click="Click_btnGuardar"/>
+                <Button Content="Limpiar" Margin="0,5,0,5" Height="30" Click="Click_btnLimpiar"/>
+
+                <ListBox x:Name="ListBoxProductos" Height="120" />
+
+            </StackPanel>
+ 
+        </Grid>
+</Window>

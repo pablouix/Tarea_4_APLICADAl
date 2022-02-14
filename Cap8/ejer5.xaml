@@ -1,0 +1,33 @@
+<Window x:Class="todosEjercicios.Cap8.ejer5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:todosEjercicios.Cap8"
+        mc:Ignorable="d"
+        Title="Ordenar cadenas" Height="400" Width="800">
+        <Grid>
+            <StackPanel Margin = "16" Orientation="Vertical">
+                <TextBlock Text="Cadenas orden alfabético📑" HorizontalAlignment="Center" FontSize="18"/>
+
+                <TextBlock Text="Primera cadena"/>
+                <TextBox Text="" x:Name="TextBoxPrimeraCadena" Height="30"  FontSize="18" VerticalContentAlignment="Center" />
+
+                <TextBlock Text="Segunda cadena"/>
+                <TextBox Text="" x:Name="TextBoxSegundaCadena" Height="30"  FontSize="18" VerticalContentAlignment="Center" />
+
+                <TextBlock Text="Resultados" HorizontalAlignment="Center" FontSize="18" Margin="5"/>
+
+                <TextBlock Text="Primera cadena ordenada"/>
+                <TextBox Text="" x:Name="TextBoxPrimeraCadenaResultado" IsEnabled="false" Height="30"  FontSize="18"  />
+
+                <TextBlock Text="Segunda cadena ordenada"/>
+                <TextBox Text="" x:Name="TextBoxSegundaCadenaResultado" IsEnabled="false" Height="30" FontSize="18" />
+
+
+                <Button Content="Ordenar" Margin="0,5,0,5" Height="30" Click="Click_btnOrdenar"/>
+                <Button Content="Limpiar" Margin="0,5,0,5" Height="30" Click="Click_btnLimpiar"/>
+
+            </StackPanel>
+        </Grid>
+</Window>

@@ -1,0 +1,15 @@
+<Window x:Class="todosEjercicios.Cap9.ejer4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:todosEjercicios.Cap9"
+        mc:Ignorable="d"
+        Title="Tipos de neumaticos" Height="310" Width="300">
+        <Grid>
+                <StackPanel Margin="16" Orientation="Vertical"> 
+                        <TextBlock Text="Lista de neumaticos" HorizontalAlignment="Center" FontSize="16"/>
+                        <ListBox x:Name="ListBoxEnum" Height="200" Width="200"/>
+                </StackPanel>
+        </Grid>
+</Window>

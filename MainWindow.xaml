@@ -1,0 +1,30 @@
+﻿<Window x:Class="todosEjercicios.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:todosEjercicios"
+        mc:Ignorable="d"
+        Title="Capitulo 8 y 9" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Menu>
+                <MenuItem Header="Capitulo 8">
+                    <MenuItem Header="Ejercio 3" Click="Ejer3MenuItem_Click"/>
+                    <MenuItem Header="Ejercio 5" Click="Ejer5MenuItem_Click"/>
+
+                </MenuItem>
+
+                <MenuItem Header="Capitulo 9">
+                    <MenuItem Header="Ejercio 1" Click="Ejer1Cap9MenuItem_Click" />
+                    <MenuItem Header="Ejercio 3" Click="Ejer3Cap9MenuItem_Click"/>
+                    <MenuItem Header="Ejercio 4"  Click="Ejer4Cap9MenuItem_Click" />
+                </MenuItem>
+
+            </Menu>
+
+        </StackPanel>
+
+
+    </Grid>
+</Window>
